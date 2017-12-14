@@ -10,6 +10,7 @@ import {
   ToastAndroid,
 } from 'react-native';
 
+
 export default class LoginView extends Component {
   static navigationOptions = {
     title: '登录',
@@ -88,8 +89,6 @@ export default class LoginView extends Component {
       const name = this.state.name;
       const pwd = this.state.pwd;
       this.props.navigation.navigate('MainView');
-      console.log("name"+name+"pwd"+pwd)
-
     }
   }
 }
