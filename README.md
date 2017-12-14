@@ -11,6 +11,9 @@
         &copy;<td>微信：jkxx123321</td>
     </tr>
 </table>
-http://images.google.com/images?num=30&amp;q=larry+bird
 
-<a href="http://images.google.com/images?num=30&amp;q=larry+bird">加a标签</a>
+![登陆](http://images.cnblogs.com/cnblogs_com/gdsblog/1129111/o_login.png "展示")
+
+![主页](http://images.cnblogs.com/cnblogs_com/gdsblog/1129111/o_main.png)
+
+[欢迎访问我的blog](http://www.cnblogs.com/gdsblog/category/1129612.html)
