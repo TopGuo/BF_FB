@@ -8,6 +8,9 @@
 遇到问题欢迎和我交流。
 <table>
     <tr>
-        <td>微信：jkxx123321</td>
+        &copy;<td>微信：jkxx123321</td>
     </tr>
 </table>
+http://images.google.com/images?num=30&amp;q=larry+bird
+
+<a href="http://images.google.com/images?num=30&amp;q=larry+bird">加a标签</a>
