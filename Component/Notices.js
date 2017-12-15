@@ -55,8 +55,8 @@ export default class Notices extends Component {
         <Text>flexDirection:默认是让其子元素竖直轴排列</Text>
         <View style={{ flex: 1, flexDirection: 'row' }}>
           <View>
-            <Ionicons name="md-checkmark-circle" size={32} color="black" />
-            <Ionicons name="md-checkmark-circle" size={55} color="green" />
+            <Ionicons name="ios-megaphone" size={32} color="black" />
+            <Ionicons name="logo-windows" size={55} color="green" />
             <Ionicons name="md-checkmark-circle" size={66} color="yellow" />
 
           </View>

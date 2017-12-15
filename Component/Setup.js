@@ -37,7 +37,24 @@ export default class Setup extends Component {
   render() {
     return (
       <View style={styles.container}>
-       <Text>设置</Text>
+        <Text>设置</Text>
+        <TouchableOpacity
+          onPress={() => {
+            this.props.navigation.navigate('StatueBarView');
+          }}
+        >
+          <Text>进入状态栏</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity
+          style={{ backgroundColor: 'red' }}
+          onPress={() => {
+
+            this.props.navigation.navigate('NavigationDemo');
+          }}
+        >
+          <Text>NavigationDemo</Text>
+        </TouchableOpacity>
       </View>
     );
   }
@@ -81,8 +98,8 @@ const styles = StyleSheet.create({
   },
   rigMyUserPic: {
     marginLeft: 305,
-    width:40,
-    height:40,
-    borderRadius:50
+    width: 40,
+    height: 40,
+    borderRadius: 50
   },
 });

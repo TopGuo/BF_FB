@@ -13,6 +13,10 @@ import Friends from './Component/Friends';
 import Myself from './Component/Myself';
 import Setup from './Component/Setup';
 
+import StatueBarView from './TestExpo/StatueBarView';
+
+import NavigationDemo from './js/App';
+
 const MainView = TabNavigator({
   Notices: { screen: Notices },
   Friends: { screen: Friends },
@@ -29,6 +33,8 @@ const MainView = TabNavigator({
 const App = StackNavigator({
   LoginView: { screen: LoginView },
   MainView: { screen: MainView },
+  StatueBarView: { screen: StatueBarView },
+  NavigationDemo: { screen: NavigationDemo },
 })
 
 
