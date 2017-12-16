@@ -67,12 +67,12 @@ const ExampleRoutes = {
   ModalStack: {
     name:
       Platform.OS === 'ios'
-        ? 'Modal Stack Example'
-        : 'Stack with Dynamic Header',
+        ? 'modal 模式案例 动态头部 ios'
+        : 'modal 模式案例 动态头部 android',
     description:
       Platform.OS === 'ios'
-        ? 'Stack navigation with modals'
-        : 'Dynamically showing and hiding the header',
+        ? 'modal 模式案例 动态头部 ios'
+        : 'modal 模式案例 动态头部 android',
     screen: ModalStack,
   },
   StacksInTabs: {

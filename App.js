@@ -14,8 +14,15 @@ import Myself from './Component/Myself';
 import Setup from './Component/Setup';
 
 import StatueBarView from './TestExpo/StatueBarView';
+import ApploadingView from './View/ApploadingView';
 
 import NavigationDemo from './js/App';
+
+//splash
+import splashView from './View/splashView';
+import guideView from './View/guideView';
+
+
 
 const MainView = TabNavigator({
   Notices: { screen: Notices },
@@ -31,10 +38,15 @@ const MainView = TabNavigator({
   });
 
 const App = StackNavigator({
+  splashView:{screen:splashView},
+  ApploadingView: { screen: ApploadingView },
   LoginView: { screen: LoginView },
   MainView: { screen: MainView },
   StatueBarView: { screen: StatueBarView },
   NavigationDemo: { screen: NavigationDemo },
+  guideView:{screen:guideView},
+
+  
 })
 
 

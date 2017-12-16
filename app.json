@@ -9,16 +9,21 @@
     "orientation": "portrait",
     "primaryColor": "#cccccc",
     "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
+    
     "ios": {
       "supportsTablet": true
     },
     "androidStatusBar": {
       "backgroundColor": "#fff"
+    },
+    "loading": {
+      "icon": "./assets/icons/splashImage.png",
+      "backgroundImage": "./assets/icons/splashImage.png"
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#FEF9B0",
+      "resizeMode":"contain"
     }
   }
 }
