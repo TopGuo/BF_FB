@@ -7,6 +7,17 @@ import {
   TabBarBottom,
 } from 'react-navigation';
 
+
+
+import Sentry from 'sentry-expo';
+
+// Remove this once Sentry is correctly setup.
+Sentry.enableInExpoDevelopment = true;
+
+Sentry.config('https://1fbe9120604646e98bd42e60b078eced:b5e4be77b1ca431f821d141128cad76c@sentry.io/261176').install();
+
+
+
 import LoginView from './View/LoginView';
 import Notices from './Component/Notices';
 import Friends from './Component/Friends';
